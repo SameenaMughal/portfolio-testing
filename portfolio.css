@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f2f0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --primary_color: #FF5588;
+}
+
+.container {
+    padding: 40px 80px;
+    display: flex;
+}
+
+/* Profie Setting */
+.profile-contect {
+    width: 13%;
+    margin-top: 40px;
+}
+
+.social-media {
+    margin-top: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.profile-contect button {
+    width: 170px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+/* End profile Setting */
+
+/* Detail Section */
+.profil-data {
+    margin-left: 30px;
+
+}
+
+.intro h2 {
+    color: #FF5588;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.intro h1 {
+    font-weight: 400;
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+.intro p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.work-done {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.work-done .Experience {
+    text-align: center;
+}
+
+.Experience h1 {
+    color: var(--primary_color);
+}
+
+.Experience span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+.work-done .Project {
+    text-align: center;
+
+}
+
+.work-done .Project h1 {
+    color: var(--primary_color);
+}
+
+.Project span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+.work-done .Client {
+    text-align: center;
+
+}
+
+.work-done .Client h1 {
+    color: var(--primary_color);
+}
+
+.Client span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+
+/*End Detail Section */
+
+/* About Section */
+.about h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--primary_color);
+    margin-top: 200px;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+/*End About Section */
+
+/* Career */
+.career h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--primary_color);
+    margin-top: 200px;
+}
+
+.career h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 18px;
+}
+
+.matric P {
+    margin-top: 20PX;
+    font-size: 16PX;
+    font-weight: 400;
+    color: #333333;
+}
+
+.matric h3 {
+    font-size: 24PX;
+    font-weight: 450;
+    color: #181818;
+}
+
+.inter P {
+    margin-top: 20PX;
+    font-size: 16PX;
+    font-weight: 400;
+    color: #333333;
+}
+
+.inter h3 {
+    font-size: 24PX;
+    font-weight: 450;
+    color: #181818;
+}
+
+.Teaching P {
+    margin-top: 20PX;
+    font-size: 16PX;
+    font-weight: 400;
+    color: #333333;
+}
+
+.Teaching h3 {
+    font-size: 24PX;
+    font-weight: 450;
+    color: #181818;
+}
+
+.CIT P {
+    margin-top: 20PX;
+    font-size: 16PX;
+    font-weight: 400;
+    color: #333333;
+}
+
+.CIT h3 {
+    font-size: 24PX;
+    font-weight: 450;
+    color: #181818;
+}
+
+.BSC-1 P {
+    margin-top: 20PX;
+    font-size: 16PX;
+    font-weight: 400;
+    color: #333333;
+}
+
+.BSC-1 h3 {
+    font-size: 24PX;
+    font-weight: 450;
+    color: #181818;
+}
+
+/* End Career */
+
+/* Services */
+.service h1 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.service h2 {
+    margin-top: 18px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818
+}
+
+.projectes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ui-ux {
+    width: 170px;
+    margin: 20px 30px;
+    border: 1px solid #FF5588;
+    border-radius: 13px;
+    padding: 20px 30px;
+    cursor: pointer;
+
+
+}
+
+.ui-ux span {
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ui-ux p {
+    margin-left: 32px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.branding {
+    width: 170px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 13px;
+    padding: 20px 30px;
+    cursor: pointer;
+
+
+}
+
+.branding span {
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.branding p {
+    margin-left: 32px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.websites {
+    width: 170px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 13px;
+    padding: 20px 30px;
+    cursor: pointer;
+
+
+}
+
+.websites span {
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.websites p {
+    margin-left: 32px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* End Services */
+
+/* skills */
+.skill h1 {
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.skill p {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.skil {
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.hero-img {
+    margin-right: 70px;
+}
+
+/* End Skills */
+
+/* Portfolio */
+.portfolio-h1 h1 {
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.portfolio-h1 p {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+
+.work-1 {
+    margin-top: 50px;
+
+}
+
+
+.works {
+    display: flex;
+
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+
+.work-3 {
+    margin-left: 20px;
+}
+
+/* End Portfolio */
+
+/* Testimonial  */
+.Testimonial h1 {
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.Testimonial p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+ .card {
+    
+    
+    margin-top: 80px;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    padding: 50px 80px;
+}
+
+.client-profile{
+    display: flex;
+   
+}
+
+.client-profile img {
+    height: 130px;
+
+
+}
+.about{
+    
+   margin-top: 30px;
+    margin-left: 30%;
+}
+
+.about h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #181818;
+    margin-top: 20px;
+    margin-right: 90px;
+
+}
+
+.about p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #181818;
+    margin-top: 0px;
+   margin-right: 90px;
+}
+ 
+.para p {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #181818;  
+}
+
+/* End Testimonial   */
+
+/* Brand */
+.brand h1{
+    margin-top: 90px;
+font-size: 24px;
+font-weight: 400;
+color: var(--primary_color);
+}
+
+.brand p{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.brandss{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+/* End Brand */
+
+/* contact */
+.contact h1{
+    margin-top: 90px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.input-1{
+    margin: 20px 0px;
+}
+
+
+
+.input-1 input{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #c7c1c3 ;
+width: 400px;
+padding: 10px;
+}
+
+.input-1 input:focus{
+    outline: none;
+}
+
+.massage textarea{
+    border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #c7c1c3 ;
+width: 400px;
+padding: 6px;
+}
+
+.massage textarea:focus{
+   outline: none;
+}
+
+.hire{
+    padding: 15px 55px;
+    border-radius: 15px;
+    border: 1px solid #c7c1c3;
+    margin: 20px 0px;
+}
+
+.lable{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* End Contact */
